@@ -1,0 +1,144 @@
+p{
+	color: blue;
+    font-size:22px;
+}
+
+.listitem{
+  color: red;
+  font-size: 20px;
+}
+
+.question{
+	color: green;
+	font-size: 30%;
+}
+
+#background {
+	background-color: red;
+}
+
+#button{
+  width: 240px;
+  height: 150px;
+  color: blue;
+  background-color: green;
+  border-radius: 20px;	
+}
+
+
+#banner {
+  height: 54px;
+width: 78%;
+border: 5px solid black;
+background-color: #007e6;
+color: black;
+font-size: 3e,;
+line-height: 2.4em;
+margin-bottom: 35px;
+}
+#footer {
+height:250px;
+width:99%;
+border:2px solid black;
+background-color:#aef880;
+margin-bottom: 2em;
+}
+
+.wrap-list {
+  width: 37%;
+  border-radius: 10px;
+  border: 5px double green;
+}
+
+.wrap-trivia {
+  height: 500px;
+  width: 380px;
+  border: 5px ridge yellow;
+  margin-top: 3em;
+  padding: 50px;
+}
+.wrap-text{
+  color: #aecf01;
+  text-decoration: underline;
+}
+
+
+
+
+ .wrap-text{
+  color:#aecf01;
+  text-decoration: underline;
+ }
+
+ #ham {
+  height: 100px;
+  width: 145px;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  top:200px;
+  z-index: 1;
+  left:275px;
+ }
+
+ #bacon {
+  height: 110px;
+  width: 99px;
+  background-color: cyan;
+  display: inline-block;
+  position: fixed;
+  left:25%;
+ }
+
+ #sausage {
+  height: 140px;
+  width: 155px;
+  background-color: grey;
+  color: blue;
+  display: inline-block;
+  position: absolute;
+ }
+
+ #background-h{
+   height: 2048p;
+ }
+
+#navitem{
+  list-style-type: none;
+  display: inline;
+  margin-right: 3em;
+  padding: 2px 5px;
+
+}
+
+#navmenu{
+  text-align: center;
+  background-color: cyan;
+  color: limegreen;
+}
+a:link{
+  color: blue;
+}
+a:visited{
+  color: purple;
+}
+
+a:hover{
+  color: yellow;
+}
+
+a:active{
+  color: green;
+}
+
+.rightside{
+  floot: right;
+  width: 50%;
+}
+ .leftside{
+  width: 50%;
+ }
+.clearfloat{
+  clear: both;
+
+}

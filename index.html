@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet"href="main.css">
+    <title>Shark</title>
+    <script>
+      function banner(){
+        var text = confirm("Did you really want to click on my banner?");
+        return text;
+          
+      }
+      function answer(){
+       var radio = document.getElementsByName("trivia");
+       var selection = false;
+       var message = ""
+       for( var i = 0; i < radio.length; i++) {
+         if(radio[i].value == "yes" && radio[i].checked == true) {
+          selection = true;
+         }
+       }
+       if(selection == true) {
+         message = message + "<b><p style='color:green'>Way to go!</p></b>";
+       } else {
+         message = message + "<b><p style='color:red'>No dummy!</p></b>";
+}
+document.getElementById("response").innerHTML = message;
+
+     } 
+    </script>
+    <style>
+    </style>
+ </head>
+ <body>
+   <a href="https://simplycoding.com">
+   <header id="banner">this is <span class="wrap-text">for sure my header</header>
+   
+   </a>
+   
+   <nav>
+     <ul id="navmenu">
+       <li class="navitem"> <a href="index.html">Home</a></li>
+       <li class="navitem"> <a href="games.html">games</a></li>
+       <li class="navitem"> <a href="videos.html">video</a></li>
+     </ul>
+   </nav>
+
+   <div class="rightside">
+<video width="400" height="220" controls autoplay>
+<source src="http://www.w3schools.com/HTML/mov_bbb.mp4" type="video/mp4">
+<source src="http://www.w3schools.com/HTML/mov_bbb.ogg" type="video/ogg">
+Your browser does not support HTML5 video.
+  </video>     
+  <div class="wrap-list">
+   <ol>
+       <li class="listitem">Megalodons are extinct</li>
+       <li class="listitem">Whale shark is now the largest</li>
+       <li class="listitem">Mako shark is the fastest</li>
+   </ol>
+  </div>
+   <div class="wrap-trivia"><h2>Shark question</h2>
+   <p class="question">Which one is closest related to great white shark?</p>
+   <form>
+    <div id="responce"></div>
+    <input type="radio" name="trivia" value="no"> Hammerhead shark <br>
+    <input type="radio" name="trivia" value="no"> Tiger shark      <br>
+    <input type="radio" name="trivia" value="yes"> Mako shark      <br>
+    <input type="radio" name="trivia" value="no"> whale shark      <br>
+    <input onclick="answer()" id="button" type="button" value="click here">
+   </form>
+  </div><!--closing rightside div tag-->
+
+  <div class="leftside">
+  <h1>Great white</h1>
+   <p>There are many types of sharks.
+    <strong>Great white</strong>, hammerhead, mako, tiger,
+    <u>dogfish</u>, whale shark, dwarf lanturn, greenland, basking, bull, lemon, <i>7-gilled</i> and much more.whale shark, basking shark and megamouth are filter-feeders. They eats pranktons and small fishes.  
+   </p>
+   </div> <!-- closing leftside div tag -->
+ <div class="clearfloat"></div>
+  
+  
+   <img width="20%" src="https://thumbs.dreamstime.com/z/sharks-11747586.jpg">
+   <img width="20%" src="https://thumbs.dreamstime.com/z/sharks-10659493.jpg">
+ <audio width="220" controls autoplay>
+   <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+ </audio>
+   <hr/>
+
+   <center> Haruhito <a href="https://www.roblox.com/">My Favorite Website</center>
+ 
+  <footer id="footer">apple</footer>
+
+ </body>
+</html>
